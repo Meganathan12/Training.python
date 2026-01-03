@@ -1,0 +1,12 @@
+text = "Hi 123"
+d = l = s = 0
+
+for ch in text:
+    if ch.isdigit():
+        d += 1
+    elif ch.isalpha():
+        l += 1
+    elif ch == " ":
+        s += 1
+
+print(d, l, s)
